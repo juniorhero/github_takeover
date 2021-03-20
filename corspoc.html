@@ -9,7 +9,7 @@ if (this.readyState == 4 && this.status == 200) {
 document.getElementById("demo").innerHTML = alert(this.responseText);
 }
 };
-xhttp.open("GET", "https://httpbin.fuze.com/headers", true);
+xhttp.open("GET", "https://app.asana.com/api/1.0/users/me", true);
 xhttp.withCredentials = true;
 xhttp.send();
 }</script></head>
